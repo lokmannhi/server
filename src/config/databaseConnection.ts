@@ -9,7 +9,7 @@ export const AppDataSource = new DataSource({
   database: defaultConfig.mssql.database,
   synchronize: false,
   logging: false,
-  entities: [__dirname + "/../entity/**/*.ts"],
+  entities: [__dirname + "/../entity/**/*.js"],
   options: {
       encrypt: false
   }
